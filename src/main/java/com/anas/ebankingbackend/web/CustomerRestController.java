@@ -1,9 +1,9 @@
 package com.anas.ebankingbackend.web;
 
-import com.miraoui.ebankingbackend.dtos.CustomerDTO;
-import com.miraoui.ebankingbackend.entities.Customer;
-import com.miraoui.ebankingbackend.exceptions.CustomerNotFoundException;
-import com.miraoui.ebankingbackend.services.BankAccountService;
+import com.anas.ebankingbackend.dtos.CustomerDTO;
+import com.anas.ebankingbackend.entities.Customer;
+import com.anas.ebankingbackend.exceptions.CustomerNotFoundException;
+import com.anas.ebankingbackend.services.BankAccountService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

@@ -1,13 +1,13 @@
 package com.anas.ebankingbackend.services;
 
-import com.miraoui.ebankingbackend.dtos.CustomerDTO;
-import com.miraoui.ebankingbackend.entities.BankAccount;
-import com.miraoui.ebankingbackend.entities.CurrentAccount;
-import com.miraoui.ebankingbackend.entities.Customer;
-import com.miraoui.ebankingbackend.entities.SavingAccount;
-import com.miraoui.ebankingbackend.exceptions.BalanceNotSufficientException;
-import com.miraoui.ebankingbackend.exceptions.BankAccountNotFoundException;
-import com.miraoui.ebankingbackend.exceptions.CustomerNotFoundException;
+import com.anas.ebankingbackend.dtos.CustomerDTO;
+import com.anas.ebankingbackend.entities.BankAccount;
+import com.anas.ebankingbackend.entities.CurrentAccount;
+import com.anas.ebankingbackend.entities.Customer;
+import com.anas.ebankingbackend.entities.SavingAccount;
+import com.anas.ebankingbackend.exceptions.BalanceNotSufficientException;
+import com.anas.ebankingbackend.exceptions.BankAccountNotFoundException;
+import com.anas.ebankingbackend.exceptions.CustomerNotFoundException;
 
 import java.util.List;
 
